@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- activity_final_score.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_blue">
+
+    <TextView
+        android:id="@+id/finalScoreTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Final Score"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"/>
+
+    <Button
+        android:id="@+id/takeNewQuizButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Take New Quiz"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:background="@drawable/rounded_button_blue"
+        android:layout_below="@id/finalScoreTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"/>
+
+    <Button
+        android:id="@+id/finishButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Finish"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:background="@drawable/rounded_button_blue"
+        android:layout_below="@id/takeNewQuizButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+
+</RelativeLayout>
